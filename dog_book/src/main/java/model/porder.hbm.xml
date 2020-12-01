@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2020/8/12 ?U?? 11:02:30 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="model.porder" table="PORDER">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="tel" type="java.lang.String">
+            <column name="TEL" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="product1" type="java.lang.Integer">
+            <column name="PRODUCT1" />
+        </property>
+        <property name="product2" type="java.lang.Integer">
+            <column name="PRODUCT2" />
+        </property>
+        <property name="product3" type="java.lang.Integer">
+            <column name="PRODUCT3" />
+        </property>
+        <property name="product4" type="java.lang.Integer">
+            <column name="PRODUCT4" />
+        </property>
+        <property name="product5" type="java.lang.Integer">
+            <column name="PRODUCT5" />
+        </property>
+        <property name="sum" type="java.lang.Integer">
+            <column name="SUM" />
+        </property>
+    </class>
+</hibernate-mapping>
