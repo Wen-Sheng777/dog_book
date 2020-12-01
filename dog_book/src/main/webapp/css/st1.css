@@ -1,0 +1,48 @@
+@charset "BIG5";
+body
+{
+	background-color:#F1EEE2;
+}
+#head
+{
+	background-color:#FBFEF9;
+}
+.content
+{
+	background-color:#FBFEF9;
+}
+.end
+{
+	background-color:#5B5363;
+}
+
+.button:hover {/*«ö¶s³±¼v*/
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#opacity {
+	opacity:0.3;
+	filter: alpha(opacity=30);
+	-moz-opacity:0.3;
+}/*¥b³z©ú*/
+#opacity1 {
+	opacity:0.7;
+	filter: alpha(opacity=70);
+	-moz-opacity:0.7;
+}/*¥b³z©ú*/
+ul,li
+{
+	margin:0; padding:0; 
+}
+.counter li
+{
+	float:left; list-style-type:none; width:30px; height:30px; text-align:center; line-height:30px; border:#999 thin solid; background-color:#fff
+}
+.counter li input
+{
+	font-size:20px; width:100%; height:100%; outline:none; -webkit-appearance:none; background:none; margin:0; padding:0; border: 1px solid transparent; border-radius: 0;
+}
+#countnum
+{
+	border-left:hidden; border-right:hidden; color:#666
+}
